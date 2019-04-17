@@ -1,0 +1,146 @@
+body{
+	background-color: #acdbce;
+}
+
+
+
+/* header info - log and navigation buttons */
+#logo{
+		font-size: 6rem;
+		font-family: 'Lobster', cursive;
+		text-align: center;
+}
+
+.nav {
+  display: inline-block;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 3rem;
+}
+
+.circle {
+	width: 100%;
+	background: white;
+	border-radius: 3px;
+	border: 1px solid grey;
+	background-color: #d05252;
+	color:white;
+}
+
+.circle:hover {
+	background-color: white;
+	color: black;
+}
+
+div#cart{
+	font-weight: bold;
+	background-image: url('images/cart.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	height: 50px;
+	padding-top: 20px;
+	padding-right: 20px;
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+#logo{
+		width: 100%;
+}
+
+.circle {
+	width: 120px;
+	height: 120px;
+	line-height: 110px;
+	background: white;
+	float: none;
+	-moz-border-radius: 75px;
+	-webkit-border-radius: 75px;
+	border-radius: 75px;
+	display: inline-block;
+	margin-top: 50px;
+	margin-right: 15px;
+	text-align:center;
+	font-size: 25px;
+	color: black;
+}
+
+.circle:hover {
+	background-color: #d05252;
+	color:white;
+}
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1275px) {
+#logo{
+		width: 26%;
+		float: left;
+}
+
+.circle{
+	float: right;
+}
+
+}
+
+#footer_top{
+	background-color: #ea8d8d;
+	color: white;
+	padding: 10px;
+}
+
+#footer_bottom{
+	background-color: #d05252;
+	color: white;
+	padding: 10px;
+}
+
+#footer_toggle{
+	background-color: #d05252;
+	color: white;
+	padding: 10px;
+	display: none;
+	height: 600px;
+}
+
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+#footerMiddle{
+	visibility: hidden;
+}
+
+#footer_toggle{
+	height: 300px;
+}
+
+}
+
+
+/* Larger than tablet */
+@media (min-width: 1000px) {
+#footerMiddle{
+	visibility: visible;
+}
+}
+
+
+
+.socialIcons{
+	width: 30px; 
+	float: right;
+	margin: 10px;
+}
+
+.title{
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+}
+
+
+img.main{
+	border: 5px solid #acdbce;
+}
+
