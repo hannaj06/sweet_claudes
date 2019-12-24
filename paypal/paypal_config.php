@@ -1,8 +1,8 @@
 <?php
 //Seller Sandbox Credentials- Sample credentials already provided
-define("PP_USER_SANDBOX", "Joseph.Hanna10-facilitator_api1.gmail.com");
-define("PP_PASSWORD_SANDBOX", "H69TZL47KSE4JAT3");
-define("PP_SIGNATURE_SANDBOX", "AFcWxV21C7fd0v3bYYYRCpSSRl31ANYAxrC7Igvxg399dRq-RgrMnwVF");
+define("PP_USER_SANDBOX", "<user>");
+define("PP_PASSWORD_SANDBOX", "<pass>");
+define("PP_SIGNATURE_SANDBOX", "<sig>");
 
 //Seller Live credentials.
 define("PP_USER","seller_username_here");
